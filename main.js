@@ -20,7 +20,7 @@
 
   console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
 
-for(i=2; i <= 20; i += 2){
+for(let i = 2; i <= 20; i += 2){
   console.log(i)
 }
   
@@ -35,7 +35,7 @@ for(i=2; i <= 20; i += 2){
   console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
  
 
-for(i=1; i < 20; i += 2) {
+for(let i = 1; i < 20; i += 2) {
   console.log(i)
 }
 
@@ -49,7 +49,7 @@ for(i=1; i < 20; i += 2) {
   console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 
-  for(i=5; i <= 100; i += 5) {
+  for(let i = 5; i <= 100; i += 5) {
     console.log(i)
   }
 
@@ -63,7 +63,21 @@ for(i=1; i < 20; i += 2) {
   console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 
-  /* Write your KATA 05 code in place of THIS comment. */
+ 
+
+  count = 0
+
+ 
+
+  while (count < 101) {
+    if (count % Math.sqrt(count) === 0) {
+      console.log(count);
+      
+      count++
+    } else {
+      count++
+    }
+  }
 
 
 /** KATA 06 ⮕
@@ -131,8 +145,19 @@ for(i=1; i < 20; i += 2) {
 
   console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+  numbers = 101
 
-  /* Write your KATA 10 code in place of THIS comment. */
+ 
+
+  while (numbers > 0) {
+    if (numbers % Math.sqrt(numbers) === 0) {
+      console.log(numbers);
+      
+      numbers--
+    } else {
+      numbers--
+    }
+  }
 
 
 
